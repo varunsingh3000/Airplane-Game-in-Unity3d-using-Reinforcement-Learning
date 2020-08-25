@@ -1,9 +1,18 @@
 # Airplane-Game-in-Unity3d-using-Reinforcement-Learning
 # Introduction
 This Project is a convergence of AI and Video Games. This game is developed using Unity Game Engine along with aid from their Built in ML Agents Package. 
-In this game you race along with other AI controlled airplanes. The game provides two racing environments to the player, Desert and Snow. The desert level was designed to be as close to a real desert with rocks and canyons and sand, however in the snow level we let our imagination go wild. The goal is to fly through each checkpoint and be the first to reach the final checkpoint to finish first place.
+In this game you race along with other AI controlled airplanes. 
+
+![menu_interface](https://user-images.githubusercontent.com/64498789/91150744-6a5d9b80-e6da-11ea-9410-16c00c3252a1.jpg)
+
+The game provides two racing environments to the player, Desert and Snow. 
+![desert_level_in_unity](https://user-images.githubusercontent.com/64498789/91150705-5f0a7000-e6da-11ea-8531-1a02cd6f2a97.JPG)
+![snow_level_in_unity](https://user-images.githubusercontent.com/64498789/91150829-85301000-e6da-11ea-9871-73415d21e597.JPG)
 
 
+The desert level was designed to be as close to a real desert with rocks and canyons and sand, however in the snow level we let our imagination go wild. The goal is to fly through each checkpoint and be the first to reach the final checkpoint to finish first place.
+
+![ongoing_race](https://user-images.githubusercontent.com/64498789/91150763-70ec1300-e6da-11ea-84e7-81db988ade59.jpg)
 
 # Training
 The game provides the player with 3 difficulty choices which are Easy, Normal and Hard. For each of these difficulties a seperate neural network has been trained and inserted into the agents. A network of 1 hidden layer with 128 nodes in each layer was setup in unity. We found this configuration to be the most optimal, however more experimentation might provide a better trained network. The network was trained on the desert level with 4 seperate copies of the desert level with 4 agents in each of them, hence at once 16 agents were being trained. During training curriculum training was also implemented with 5 different learning levels. To encourage the agents to fly throught the checkpoints only a sphere of certain radius is created around the checkpoints. Initially the radius is such that the sphere is as large as the checkpoint and even if the agents fly throught the sphere but not the checkpoint they receive certain reward. When a certain threshold of reward is reached then the radius of the spheres are decreased and this continues till the agents reach the final level in which the radius is 0, which effectively means the sphere is non existent and the agents are actually flying through the checkpoint. The number of copies for the level can certainly be increased. The same trained networks is also used in the Snow level with pleasently positive results with performance of the agents being as superb as in the desert level.
