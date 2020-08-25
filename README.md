@@ -5,12 +5,15 @@ In this game you race along with other AI controlled airplanes.
 
 ![menu_interface](https://user-images.githubusercontent.com/64498789/91150744-6a5d9b80-e6da-11ea-9410-16c00c3252a1.jpg)
 
-The game provides two racing environments to the player, Desert and Snow. 
+The game provides two racing environments to the player, Desert and Snow.
+
 ![desert_level_in_unity](https://user-images.githubusercontent.com/64498789/91150705-5f0a7000-e6da-11ea-8531-1a02cd6f2a97.JPG)
+
+The desert level was designed to be as close to a real desert with rocks and canyons and sand, however in the snow level we let our imagination go wild. 
+
 ![snow_level_in_unity](https://user-images.githubusercontent.com/64498789/91150829-85301000-e6da-11ea-9871-73415d21e597.JPG)
 
-
-The desert level was designed to be as close to a real desert with rocks and canyons and sand, however in the snow level we let our imagination go wild. The goal is to fly through each checkpoint and be the first to reach the final checkpoint to finish first place.
+The goal is to fly through each checkpoint and be the first to reach the final checkpoint to finish first place.
 
 ![ongoing_race](https://user-images.githubusercontent.com/64498789/91150763-70ec1300-e6da-11ea-84e7-81db988ade59.jpg)
 
