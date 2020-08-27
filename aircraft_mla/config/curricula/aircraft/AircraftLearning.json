@@ -1,0 +1,9 @@
+{
+    "measure": "reward",
+    "thresholds": [1.0, 2.0, 4.0, 6.0],
+    "min_lesson_length": 100,
+    "signal_smoothing":true,
+    "parameters": {
+        "checkpoint_radius": [50.0, 30.0, 20.0, 10.0, 0.0]
+    }
+}
