@@ -38,3 +38,5 @@ This project was created in unity3d version 2019.3.3f1 along with the ML- Agents
 For running the camera properly you would need to install the Cinemachine package (ver 2.3.4).
 You should be able to directly run this project via Unity Hub, keep all the files in the same folder and open throught unity hub.
 
+For those who simply want to test and play this game on their own machines, please donwload the game.zip file, extract it and then just run the Aircraft.exe file to launch the game.
+
